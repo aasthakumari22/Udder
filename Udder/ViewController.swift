@@ -17,6 +17,9 @@ class ViewController: UIViewController {
         super.viewWillAppear(animated)
     }
 
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+    }
 
 }
 
